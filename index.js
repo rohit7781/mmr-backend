@@ -59,7 +59,7 @@ app.use("/api/ratings", auth2, ratingRoutes);
 // }
 
 app.get('/', (req, res) => {
-  res.send('App is working Fine')
+  res.send('App is working Fine ')
 })
 
 app.listen(config.PORT || 5000, () => {

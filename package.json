@@ -4,8 +4,7 @@
   "description": "mern-boilerplate server",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "server": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "Samuel Fils",
   "license": "ISC",
@@ -31,5 +30,8 @@
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0",
     "url-join": "^4.0.1"
+  },
+  "engines": {
+    "node": "16.13.0"
   }
 }
